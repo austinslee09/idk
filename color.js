@@ -1,6 +1,6 @@
 const body=document.getElementsByTagName("body") [0]
 function setColor(name) 
-{body.style.backgroundColor=red;}
+{body.style.backgroundColor="name";}
 
 function randomColor(){
     const red=Math.round (Math.random()*255)
