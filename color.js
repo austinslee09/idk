@@ -3,3 +3,12 @@ function setColor(name) {body.style.backgroundColor=name}
 setColor("green")
 setColor("red")
 setColor("blue")
+function randomColor(){\
+    const red=Math.round (Math.random()*255)
+    const green=Math.round (Math.random()*255)
+    const blue=Math.round (Math.random()*255)
+    const yellow=Math.round (Math.random()*255)
+
+    const color=`rgby(${red}, ${green}, ${blue}, ${yellow})`
+    body.style.backgroundColor=color;
+}
