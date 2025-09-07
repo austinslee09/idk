@@ -8,6 +8,7 @@ function randomColor(){
     const blue=Math.round (Math.random()*255)
     
 
-    const color=`rgby(${red}, ${green}, ${blue})`
+    const color=`rgb(${red}, ${green}, ${blue})`
     body.style.backgroundColor=color;
 }
+setColor ("red")
